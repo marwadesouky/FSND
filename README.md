@@ -2,7 +2,7 @@
 
 In this project I have created a reporting tool that prints out reports based on data in the Database. 
 
- This reporting tool is a Python program using the ```ppsycopg2``` module to connect to the database. 
+ This reporting tool is a Python program using the ```psycopg2``` module to connect to the database. 
 
  Here are the questions answered by the reporting tool: 
  ## 1. What are the most popular three articles of all time?
