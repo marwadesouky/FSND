@@ -36,7 +36,7 @@ def print_query(statement, query, text):
     query_result = exec_query(query)
     print"\n", statement
     for i in query_result:
-        print(i[0], " -- ", i[1], text)
+        print i[0], " -- ", i[1], text
 
 
 def exec_query(query):
